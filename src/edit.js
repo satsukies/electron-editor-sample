@@ -11,4 +11,4 @@ window.addEventListener('DOMContentLoaded', () => {
       indentUnit: 2
     }
   )
-});
+})
