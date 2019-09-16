@@ -2,7 +2,7 @@
   "name": "electron-editor",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "main.js",
   "dependencies": {},
   "devDependencies": {
     "electron": "^6.0.9"
