@@ -3,11 +3,17 @@
   <head>
     <meta charset="UTF-8">
     <title>Hello World!</title>
+
+    <!-- codemirrorのスクリプトとスタイルをloadする -->
+    <script src="node_modules/codemirror/lib/codemirror.js"></script>
+    <link rel="stylesheet" href="node_modules/codemirror/lib/codemirror.css">
+
+    <!-- kotlinはclikeに含まれているので、clike.jsを読み込む -->
+    <script src="node_modules/codemirror/mode/clike/clike.js"></script>
+
+    <script src="edit.js"></script>
   </head>
   <body>
-    <h1>Hello World!</h1>
-    We are using node <script>document.write(process.versions.node)</script>,
-    Chrome <script>document.write(process.versions.chrome)</script>,
-    and Electron <script>document.write(process.versions.electron)</script>.
+    <textarea id="textarea"></textarea>
   </body>
 </html>

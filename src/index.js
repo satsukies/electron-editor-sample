@@ -18,7 +18,7 @@ function createWindow() {
   window.loadFile('index.html')
 
   // 必要なら、chroniumの開発者ツールを開くことができる
-  window.webContents.openDevTools()
+  // window.webContents.openDevTools()
 
   // windowが閉じられたときに{}内が実行される
   window.on('closed', () => {
