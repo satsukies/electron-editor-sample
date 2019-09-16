@@ -11,7 +11,8 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "electron ./src"
+    "start": "electron ./src",
+    "build-mac": "electron-packager src ElectronEditor --platform=darwin --overwrite"
   },
   "author": "",
   "license": "ISC"
